@@ -1,5 +1,5 @@
 {
-  "name": "better-date",
+  "name": "@abdulaziz-mohammed/better-date",
   "version": "1.0.0",
   "description": "javascript date extra functions",
   "main": "dist/index.js",
