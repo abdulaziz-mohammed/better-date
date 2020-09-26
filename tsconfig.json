@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "lib": [
+      "esnext",
+      "dom",
+    ],
+    "experimentalDecorators": true,
+    "plugins": [
+      {
+        "transform": "ts-nameof",
+        "type": "raw"
+      }
+    ],
+    "noImplicitThis":false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
+}

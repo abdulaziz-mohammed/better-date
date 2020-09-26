@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test Email",
+            "program": "${workspaceFolder}/dist/extensions/email.extension/test_web.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Test Form Post",
+            "program": "${workspaceFolder}/dist/extensions/form_posts.extension/test_web.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Preview Checkout",
+            "program": "${workspaceFolder}/dist/extensions/checkout.extension/preview.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Preview TimeBook",
+            "program": "${workspaceFolder}/dist/extensions/timebook.extension/preview.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Preview Tables",
+            "program": "${workspaceFolder}/dist/extensions/tables.extension/preview.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Preview FormEntities",
+            "program": "${workspaceFolder}/dist/extensions/form_entities.extension/preview.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Preview Legals",
+            "program": "${workspaceFolder}/dist/extensions/legals.extension/preview.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Preview Auth",
+            "program": "${workspaceFolder}/dist/extensions/auth.extension/preview.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        // {
+        //     "type": "node",
+        //     "request": "launch",
+        //     "name": "Test Checkout",
+        //     "skipFiles": [
+        //         "<node_internals>/**"
+        //     ],
+        //     "program": "${workspaceFolder}/dist/extensions/checkout.extension/test_web.js",
+        //     "runtimeExecutable": "nodemon",
+        //     "restart": true,
+        // }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "better-date",
+  "version": "1.0.0",
+  "description": "javascript date extra functions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "ttsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "if [ -f better-date-1.0.0.tgz ]; then rm better-date-1.0.0.tgz; fi && npm run build && if [ -d ./ ]; then npm pack ./; fi"
+  },
+  "author": "abdulaziz mohammed",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ts-nameof": "^4.2.1",
+    "prettier": "^2.0.5",
+    "ts-nameof": "^5.0.0",
+    "tsc-watch": "^4.2.8",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@types/lodash.clonedeep": "^4.5.6",
+    "lodash.clonedeep": "^4.5.0"
+  }
+}
