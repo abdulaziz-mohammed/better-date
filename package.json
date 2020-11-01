@@ -1,6 +1,6 @@
 {
   "name": "@abdulaziz-mohammed/better-date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "javascript date extra functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,9 @@
   },
   "author": "abdulaziz mohammed",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@types/ts-nameof": "^4.2.1",
     "prettier": "^2.0.5",

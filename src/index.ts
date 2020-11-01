@@ -33,8 +33,8 @@ export const getReadableDay = ({
 
   const DAYS_AR = ['الأحد', 'الأثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعه', 'السبت'];
 
-  if (lang === 'ar') return DAYS_AR[date?.getDay() || day!];
-  return DAYS[date?.getDay() || day!];
+  if (lang === 'ar') return DAYS_AR[date?.getDay() ?? day!];
+  return DAYS[date?.getDay() ?? day!];
 };
 
 export function getReadableMonth({ month, date, lang = 'ar' }: { month?: number; date?: Date; lang?: 'ar' | 'en' }) {
@@ -55,7 +55,7 @@ export function getReadableMonth({ month, date, lang = 'ar' }: { month?: number;
       'December',
     ],
   };
-  return MONTHS[lang][date?.getMonth() || month!];
+  return MONTHS[lang][date?.getMonth() ?? month!];
 }
 
 export function dateWithTimeZone(date: Date, ianatz: string) {
